@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ChartConfiguration, ChartOptions } from 'chart.js';
+import { ChartConfiguration, ChartOptions, ChartType } from "chart.js";
 import { BsLocaleService } from 'ngx-bootstrap/datepicker';
 
 @Component({

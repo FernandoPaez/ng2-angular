@@ -56,9 +56,13 @@
 
     </div>
 
-    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+    <div class="chart-wrapper">
+        <canvas baseChart width="400" height="400"
+        [type]="'line'"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [legend]="lineChartLegend">
+      </canvas>
+    </div>
 </main> 
 
-<div class="chart-wrapper">
-
-</div>

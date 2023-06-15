@@ -17,6 +17,10 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { esLocale } from 'ngx-bootstrap/locale';
 defineLocale('es', esLocale);
+import { NgChartsModule } from 'ng2-charts';
+
+
+
 
 @NgModule({
   declarations: [
@@ -35,6 +39,7 @@ defineLocale('es', esLocale);
     AppRoutingModule,
     BrowserAnimationsModule,
     BsDatepickerModule.forRoot(),
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
